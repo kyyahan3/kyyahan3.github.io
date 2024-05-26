@@ -1,0 +1,78 @@
+{
+  "WebDev": [
+    {
+      "title": "Reddit Sentiment Tracker",
+      "imageSrc": "projects/reddit.png",
+      "date": "Apr, 2024",
+      "description": "This project features a real-time dashboard displaying sentiment and emotion trends for four main political parties on Reddit during the 2024 election. We developed a pipeline to process streaming data using Kafka, deployed on the Cloud, and stored the sentiment scores in CouchDB for timely insights and analysis.",
+      "skills": ["Kafka", "Kubernetes", "CI/CD", "Ansible", "Vagrant", "React", "JS", "Flask", "Python", "No-SQL" ],
+      "linkType": "Demo",
+      "link": "https://www.example.com"
+    },
+    {
+      "title": "Movie Recommender",
+      "imageSrc": "projects/movies.png",
+      "date": "Apr, 2024",
+      "description": "This is a movie recommender using microservices and built with Spring WebFlux and Project Reactor's ParallelFlux, enabling asynchronous, parallelized processing for providing movie recommendations.",
+      "skills": [ "Spring", "WebFlux", "Java", "Project Reactor"],
+      "linkType": "noShow",
+      "link": "https://gitlab.com/yahan-ds/cs-891-spring-2024/-/tree/main/assignment3?ref_type=heads"
+    },
+    {
+      "title": "ParkShare Platform",
+      "imageSrc": "projects/park.png",
+      "date": "Jan, 2023",
+      "description": "The project supports users to browse and add information about national parks, including comments and ratings. I used Redis cache to enhance backend performance and data retrieval and deployed on GCP using Docker containers.",
+      "skills": ["React", "JS", "Django", "Python", "MongoDB", "Redis", "GCP"],
+      "linkType": "Demo",
+      "link": "http://34.121.145.184:3003/parks"
+    },
+    {
+      "title": "WeChat Rep Counter",
+      "imageSrc": "projects/wechat.png",
+      "date": "May, 2022",
+      "description": "In this capstone project, I developed a WeChat mini-app that tracks users' indoor exercises in real-time and keeps a history, including rope jumping, push-ups, squats, and crunches. Using Mediapipe, a deep-learning framework for posture recognition, I designed an algorithm to count repetitions.",
+      "skills": ["JS", "XML", "Flask", "Python", "Docker", "MySQL", "Deep Learning"],
+      "linkType": "Source",
+      "link": "https://github.com/kyyahan3/mediapipe-counter"
+    }
+  ],
+  "DS":[
+    {
+      "title": "Source Code Categorization",
+      "imageSrc": "projects/sourcecode.png",
+      "date": "Apr, 2024",
+      "description": "This project involved transforming 12GB of labeled C++ code into Abstract Syntax Trees (AST) stored in PyTorch Geometric format, and achieving 83% test accuracy on code classification using a tuned Graph Convolutional Network (GCN) model.",
+      "skills": ["GCN", "MLP", "PyTorch", "PySpark", "Databricks"],
+      "linkType": "noShow",
+      "link": ""
+    },
+    {
+      "title": "Asurion's IPhone Claims Prediction",
+      "imageSrc": "projects/asurion.png",
+      "date": "Mar, 2023",
+      "description": "In this project, we achieved a 26% WMAP Error in predicting iPhone claims for the following month for Asurion by performing data cleaning, feature engineering, and time-series analysis. Utilizing Gradient Boosting, we uncovered patterns and trends, providing valuable insights for timely decision-making to optimize storage.",
+      "skills": ["Machine Learning", "Regression", "Time Serise", "Gradient Boost", "Neural Networks", "Python"],
+      "linkType": "Source",
+      "link": "https://github.com/kyyahan3/mediapipe-counter"
+    },
+    {
+      "title": "Jenny's Personality Shifts",
+      "imageSrc": "projects/jenny.jpg",
+      "date": "Dec, 2022",
+      "description": "We domain-adapted transformer models to understand personality shifts in Jenny's letters following a significant life change. We transformed over 200 letters into Hugging Face-compatible JSON format and used advanced statistical analysis and data visualization to effectively showcase the models' ability to learn and represent these personality shifts.",
+      "skills": ["NLP", "Transformer Models", "Domain Adaptaion", "Python"],
+      "linkType": "Source",
+      "link": "https://github.com/vanderbilt-data-science/letters-from-jenny"
+    },
+    {
+      "title": "Masked Face Verification",
+      "imageSrc": "",
+      "date": "Feb, 2021",
+      "description": "We developed and trained a contrastive learning model on a modified SimCLR framework in PyTorch to address masked face verification challenges during COVID-19, achieving 60% testing verification accuracy compared to a 47.5% baseline and resulting in a published paper.",
+      "skills": ["Computer Vision", "Face Recognition", "Deep Learning", "Python"],
+      "linkType": "Source",
+      "link": "https://ieeexplore.ieee.org/document/9516477"
+    }
+  ]
+}

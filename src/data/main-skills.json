@@ -1,0 +1,19 @@
+[
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Next.js",
+    "imageSrc": "skills/nextjs.png"
+  },
+  {
+    "title": "K8s",
+    "imageSrc": "skills/kubernetes.png"
+  },
+  {
+    "title": "Docker",
+    "imageSrc":"skills/docker.png"
+  }
+  
+]

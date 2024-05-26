@@ -1,0 +1,36 @@
+[
+  {
+    "role": "Data Science COOP",
+    "organization": "InfoPro Digital",
+    "date": "Sep 2023",
+    "experiences": ["Built a chatbot using RAG and Gradio", 
+                    "Optimized ETL for unstructured financial data."],
+    "imageSrc": "history/chartis.png",
+    "skills": ["RAG", "Agents", "Azure", "Langchain", "GPT-3.5", "Vector Database", "Huggingface", "Gradio"],
+    "weight": 0.4
+  },
+  {
+    "role": "Research Assistant",
+    "organization": "LEAR Lab",
+    "date": "Jan 2023",
+    "experiences": ["Create datasets with LLMs to fine-tune a scoring model",
+                    "Added features to an online textbook web application", 
+                    "Tested and improved our textbook CMS"
+                  ],
+    "imageSrc": "history/learlab.png",
+    "skills": ["LLMs", "FastAPI", "NextJS", "Typescripts", "Github Pages", "Python"],
+    "weight": 0.4
+  },
+  {
+    "role": "Data Support Intern",
+    "organization": "AsiaInfo",
+    "date": "Aug 2021",
+    "experiences": [
+      "Created SQL scripts for anomaly detection",
+      "Scripts Transfering and data auditing"
+    ],
+    "imageSrc": "history/asaininfo.png",
+    "skills": ["SQL", "Oracle", "Linux Shell", "Excel"],
+    "weight": 0.3
+  }
+]
