@@ -1,21 +1,5 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
-  },
-  {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
-  },
-  {
-    "title": "Django",
-    "imageSrc": "skills/django.png"
-  },
-  {
     "title": "Redis",
     "imageSrc": "skills/redis.png"
   },
@@ -34,5 +18,30 @@
   {
     "title": "Pyspark",
     "imageSrc": "skills/spark.png"
+  }, 
+  {
+    "title": "Databricks",
+    "imageSrc": "skills/databricks.png"
+  },
+  {
+    "title": "SpringBoot",
+    "imageSrc": "skills/springboot.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Django",
+    "imageSrc": "skills/django.png"
   }
+  
 ]

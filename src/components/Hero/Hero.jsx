@@ -9,8 +9,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Yahan</h1>
         <p className={styles.description}>
-          I'm a full-stack developer with 2 years of experience using React and
-          NextJS.<br />Reach out if you'd like to learn more!
+        I'm passionate about using my skills in data operations and software development to make impactful decisions across various sectors. 
         </p>
         <a href="mailto:yahan.yang@vanderbilt.edu" className={styles.contactBtn}>
           Contact Me
