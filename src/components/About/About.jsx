@@ -21,6 +21,7 @@ export const About = () => {
               </div>
             );
           })}
+          <div style={{ width: '100%' }}></div>
           {smallSkills.map((skill, index) => (
             <div key={index} className={styles.smallSkill}>
               <div className={styles.smallSkillImageContainer}>

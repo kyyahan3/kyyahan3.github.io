@@ -7,7 +7,7 @@
       "description": "This project features a real-time dashboard displaying sentiment and emotion trends for four main political parties on Reddit during the 2024 election. We developed a pipeline to process streaming data using Kafka, deployed on the Cloud, and stored the sentiment scores in CouchDB for timely insights and analysis.",
       "skills": ["Kafka", "Kubernetes", "CI/CD", "Ansible", "Vagrant", "React", "JS", "Flask", "Python", "No-SQL" ],
       "linkType": "Demo",
-      "link": "https://www.example.com"
+      "link": "https://election-sentiment-analysis.vercel.app/"
     },
     {
       "title": "Movie Recommender",
