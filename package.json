@@ -13,10 +13,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.3.7",
     "@fontsource/outfit": "^5.0.8",
     "@fontsource/roboto": "^5.0.8",
+    "antd": "^5.18.0",
+    "consola": "^3.2.3",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite-plugin-style-import": "^2.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

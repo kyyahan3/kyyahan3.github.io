@@ -1,12 +1,5 @@
 [
-  {
-    "title": "Redis",
-    "imageSrc": "skills/redis.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
+  
   {
     "title": "AWS",
     "imageSrc": "skills/aws.png"
@@ -16,12 +9,29 @@
     "imageSrc": "skills/google-cloud.png"
   },
   {
+    "title": "Azure",
+    "imageSrc": "skills/azure.png"
+  },
+  {
     "title": "Pyspark",
     "imageSrc": "skills/spark.png"
   }, 
   {
     "title": "Databricks",
     "imageSrc": "skills/databricks.png"
+  },
+
+  {
+    "title": "Redis",
+    "imageSrc": "skills/redis.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "Cassandra",
+    "imageSrc": "skills/cassandra.png"
   },
   {
     "title": "SpringBoot",

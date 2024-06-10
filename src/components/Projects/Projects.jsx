@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import CarouselComponent from './CarouselComponent';
 import styles from "./Projects.module.css";
 import projects from "../../data/projects.json";
 import { getImageUrl } from "../../utils";
@@ -45,12 +45,16 @@ export const Projects = () => {
                   {historyItem.linkType !== 'noShow' && (
                     <a href={historyItem.link} className={styles.link}>{historyItem.linkType}</a>
                   )}
-                  {historyItem.imageSrc && (
-                    <img
-                      src={getImageUrl(historyItem.imageSrc)}
-                      className={styles.image}
-                      alt={`${historyItem.title} project`}
-                    />
+                  {historyItem.imageSrc && historyItem.imageSrc.length > 0 && (
+                    historyItem.imageSrc.length > 1 ? (
+                      <CarouselComponent images={historyItem.imageSrc.map(src => getImageUrl(src))} />
+                    ) : (
+                      <img
+                        src={getImageUrl(historyItem.imageSrc[0])}
+                        className={styles.image}
+                        alt={`${historyItem.title} project`}
+                      />
+                    )
                   )}
                 </div>
                 <div className={styles.historyItemDetails}>
