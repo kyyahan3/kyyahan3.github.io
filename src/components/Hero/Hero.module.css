@@ -115,4 +115,14 @@
   .content {
     align-items: center;
   }
+
+  .title {
+    font-size: 45px;
+  }
+
+  .description {
+    font-size: 23px;
+    margin-bottom: 40px;
+  }
+
 }

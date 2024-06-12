@@ -25,7 +25,6 @@
   border-radius: 8px; /* Optional: Rounded corners */
 }
 
-
 .title {
   font-size: 25px;
   font-weight: 700;
@@ -73,19 +72,43 @@
   padding: 2px 12px;
 }
 
-.links {
-  width: 100%;
-  margin-top: 26px;
-  display: flex;
-  justify-content: space-around;
-}
+@media screen and (max-width: 830px) {
+  .container {
+    max-width: 100%; 
+    padding: 16px; 
+  }
 
-.link {
-  text-decoration: none;
-  color: var(--color-text);
-  font-size: 30px;
-  font-weight: 600;
-  border-radius: 100px;
-  background: var(--color-primary);
-  padding: 1px 22px;
+  .image-container {
+    height: 40px; 
+    margin-bottom: 0;
+  }
+
+  .image {
+    height: 80%; /* Adjust image size */
+  }
+
+  .title {
+    font-size: 22px; 
+  }
+
+  .subtitle {
+    font-size: 16px; 
+  }
+
+  .description {
+    font-size: 18px; 
+  }
+
+  .descriptionList {
+    margin-top: 3px;
+  }
+
+  .skills {
+    gap: 4px; 
+  }
+
+  .skill {
+    font-size: 18px; 
+    padding: 2px 10px; /* Adjust padding */
+  }
 }

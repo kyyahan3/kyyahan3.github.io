@@ -18,6 +18,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .content {
@@ -73,8 +74,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60px;  /* Smaller size for small skills */
-  height: 60px;
+  width: 65px;  /* Smaller size for small skills */
+  height: 65px;
 }
 
 .smallSkillImageContainer img {
@@ -127,6 +128,7 @@
 
 @media screen and (max-width: 830px) {
   .container {
+    margin-top: 50px;
     background-color: transparent;
     padding-left: 0;
     padding-right: 0;
@@ -141,11 +143,37 @@
   }
 
   .aboutItems {
-    margin-top: 29px;
+    margin-top: 20px;
+    gap: 10px;
   }
 
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+  }
+  .aboutItem h3 {
+    font-size: 20px;
+  }
+  
+  .aboutItem p {
+    font-size: 20px;
+  }
+  
+  .skills {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .smallSkillImageContainer {
+    width: 50px;
+    height: 50px;
+  }
+
+  .smallSkillImageContainer img {
+    width: 30px;
+  }
+
+  .smallSkill p {
+    font-size: 12px;
   }
 }

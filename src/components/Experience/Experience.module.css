@@ -24,3 +24,9 @@
   gap: 50px;
   width: 100%;
 }
+
+@media screen and (max-width: 830px) {
+  .experienceContainer {
+    gap: 20px;
+  }
+}

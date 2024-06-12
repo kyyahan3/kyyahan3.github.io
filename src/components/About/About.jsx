@@ -1,8 +1,7 @@
 import React from "react";
 
 import styles from "./About.module.css";
-import largeSkills from "../../data/main-skills.json";
-import smallSkills from "../../data/other-skils.json";
+import smallSkills from "../../data/skils.json";
 import { getImageUrl } from "../../utils";
 
 export const About = () => {
@@ -11,7 +10,7 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <div className={styles.skills}>
-          {largeSkills.map((skill, id) => {
+          {/* {largeSkills.map((skill, id) => {
             return (
               <div key={id} className={styles.skill}>
                 <div className={styles.skillImageContainer}>
@@ -20,7 +19,7 @@ export const About = () => {
                 <p>{skill.title}</p>
               </div>
             );
-          })}
+          })} */}
           <div style={{ width: '100%' }}></div>
           {smallSkills.map((skill, index) => (
             <div key={index} className={styles.smallSkill}>

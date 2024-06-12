@@ -6,12 +6,20 @@ import { getImageUrl } from "../../utils";
 
 export const Projects = () => {
   const [selectedTab, setSelectedTab] = useState("WebDev");
+  const [expandedDescriptions, setExpandedDescriptions] = useState({});
 
   const handleTabChange = (tab) => {
     setSelectedTab(tab);
   };
 
   const filteredProjects = projects[selectedTab];
+
+  const toggleDescription = (id) => {
+    setExpandedDescriptions((prev) => ({
+      ...prev,
+      [id]: !prev[id],
+    }));
+  };
 
   return (
     <section className={styles.container} id="projects">
@@ -46,20 +54,21 @@ export const Projects = () => {
                     <a href={historyItem.link} className={styles.link}>{historyItem.linkType}</a>
                   )}
                   {historyItem.imageSrc && historyItem.imageSrc.length > 0 && (
-                    historyItem.imageSrc.length > 1 ? (
-                      <CarouselComponent images={historyItem.imageSrc.map(src => getImageUrl(src))} />
-                    ) : (
-                      <img
-                        src={getImageUrl(historyItem.imageSrc[0])}
-                        className={styles.image}
-                        alt={`${historyItem.title} project`}
-                      />
-                    )
+                    <CarouselComponent
+                      images={historyItem.imageSrc.map((src) => getImageUrl(src))}
+                    />
                   )}
                 </div>
                 <div className={styles.historyItemDetails}>
-                  <p>{`${historyItem.date}`}</p>
-                  <p className={styles.description}>{`${historyItem.description}`}</p>
+                  <p className={styles.date}>{`${historyItem.date}`}</p>
+                  <p
+                    className={`${styles.description} ${
+                      expandedDescriptions[id] ? styles.expanded : styles.collapsed
+                    }`}
+                    onClick={() => toggleDescription(id)}
+                  >
+                    {historyItem.description}
+                  </p>
                   <ul className={styles.skills}>
                     {historyItem.skills.map((skill, id) => {
                       return (

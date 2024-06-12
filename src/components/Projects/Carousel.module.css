@@ -1,19 +1,25 @@
-.image {
-  margin-bottom: 20px;
-  margin-top: 10px;
-  width: 100%; /* Ensure the image takes the full width of the container */
-  height: auto;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
 .carouselContainer {
-  margin-bottom: 20px;
-  margin-top: 10px;
   width: 70%;
   height: auto;
   border-radius: 8px;
   overflow: hidden;
   position: relative;
-  max-width: 100%; /* Ensure it doesn't exceed the viewport width */
+  max-width: 100%; 
+}
+
+.image {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  width: 100%; 
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+@media screen and (max-width: 830px) {
+  .carouselContainer {
+    width: 80%;
+    margin-left: 15px;
+  }
+
 }
