@@ -44,10 +44,6 @@
     "imageSrc": "skills/mongodb.png"
   },
   {
-    "title": "Cassandra",
-    "imageSrc": "skills/cassandra.png"
-  },
-  {
     "title": "SpringBoot",
     "imageSrc": "skills/springboot.png"
   },

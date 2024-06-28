@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel } from 'antd';
+import { Carousel, Image } from 'antd';
 import styles from './Carousel.module.css';
 
 const CarouselComponent = ({ images }) => {
@@ -8,7 +8,7 @@ const CarouselComponent = ({ images }) => {
        <Carousel autoplay>
         {images.map((src, index) => (
           <div key={index}>
-            <img
+            <Image
               src={src}
               alt={`Slide ${index + 1}`}
               className={styles.image}
